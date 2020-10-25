@@ -1,0 +1,9 @@
+.. _spresults:
+
+.. default-domain:: py
+
+SugarPy Results
+===============
+
+.. automodule:: sugarpy.results
+   :members:

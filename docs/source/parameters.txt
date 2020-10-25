@@ -1,0 +1,63 @@
+.. _parameters:
+
+SugarPy Parameters
+==================
+
+SugarPy is devided into a **run** and a **results** class.
+Some parameters are shared by both, while others are specific
+to the respective class.
+
+General Parameters
+------------------
+
+- charges (list): 
+    list of charge states that are quantified
+- max_tree_length (int):
+    maximum number of monosaccharides in one combination
+- min_spec_number (int):
+    defines the minimum number of spectra for one matched formula.
+- monosaccharides(dict): 
+    dictionary containing name and chemical composition of monosaccharides
+- ms_level: 
+    MS level for which quantification should be performed
+- mzml_file (str):
+    path to the mzML file used for the quantification
+- 
+
+Run Parameters
+--------------
+
+For an example on how to use these parameters, refer to sugarpy_run_example.py
+
+- ident_file (str): 
+    Path to the Ursgal result .csv file.
+    This file should only include (potential) glycopeptides, i.e. it should be filtered.
+- min_tree_length (int):
+    minimum number of monosaccharides per glycan
+- params (dict): 
+    pyQms parameters (see pyQms manual for further information)
+- pkl_name (str):
+    name of the result pickle containing the pyQms results
+- rt_window (dict): 
+    optional argument to define a retention time window 
+    in which the molecules are quantified (use 'min' and 'max' as keys in the dict)
+- spectra (list): 
+    optional list of spectrum IDs that should be quantified
+- unimod_glycans_incl_in_search (list):
+    List of Unimod PSI-MS names corresponding to glycans that were 
+    included in the database search as modification (will be removed from the peptide).
+
+
+Results Parameters
+------------------
+
+For an example on how to use these parameters, refer to sugarpy_results_example.py
+
+- output_file (str): 
+    output file name
+- max_trees_per_spec (int):
+    maximum number of glycan compositions returned for one spectrum
+- min_sugarpy_score (float):
+    minimum SugarPy score (glycan compositions with lower scores are not returned)
+- min_sub_cov (float):
+    minimum subtree coverage (glycan compositions with sub_cov are not returned)

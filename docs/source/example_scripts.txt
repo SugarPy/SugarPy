@@ -1,0 +1,54 @@
+.. _examplescripts:
+
+Example Scripts
+===============
+
+This collection of example scripts is designed to get familiar with
+the basic functionality of SugarPy. They can be modified and combined
+according to your needs.
+Please also check the folder "example_scripts" as well as Ursgal's
+"example_scripts" for further use cases and implementation into
+more compelx workflows.
+
+Simple Example Scripts
+^^^^^^^^^^^^^^^^^^^^^^
+
+Parse peptide sequence input file
+---------------------------------
+
+.. autofunction:: parse_peptide_sequence_input_file.main
+
+.. include:: code_inc/parse_peptide_sequence_input_file.inc
+
+
+Build glycopeptide combinations
+-------------------------------
+
+.. autofunction:: build_glycopeptide_combinations.main
+
+.. include:: code_inc/build_glycopeptide_combinations.inc
+
+
+Full Workflow Example Scripts
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. _sugarpy_run_example:
+
+SugarPy run example
+-------------------
+
+.. autofunction:: sugarpy_run_example.main
+
+.. include:: code_inc/sugarpy_run_example.inc
+
+
+.. _sugarpy_results_example:
+
+SugarPy results example
+-----------------------
+
+.. autofunction:: sugarpy_results_example.main
+
+.. include:: code_inc/sugarpy_results_example.inc
+
+

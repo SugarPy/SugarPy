@@ -1,0 +1,43 @@
+.. _general_structure:
+
+General Structure
+=================
+
+SugarPy is comprised by a  **run** and a **results** class.
+The run class includes all major functions to identify glycopeptides
+from IS-CID mass spectrometry measurements, while the results class
+can be used to generate different output files.
+
+
+Run
+---
+
+The main functionalities of the SugarPy :ref:`run<sprun>` class include
+
+    #. parsing protein database search result files to extract peptide sequences, retention times, etc.
+    #. building all theoretical combinations for a set of peptide sequences, monosaccharides and a given glycan length
+    #. searching MS1 spectra for isotope envelopes of all theoretical glycopeptides (using `pyQms`_)
+    #. reassambling intact glycopeptides by combining subtrees, calculating SugarPy scores, etc.
+
+
+.. _pyQms:
+    https://github.com/pyQms/pyqms
+
+
+Results
+-------
+
+A variety of output files can be generated using the SugarPy :ref:`results<spresults>` class, including
+
+    #. output .csv file
+    #. glycopeptide elution profiles
+    #. annotated spectra
+
+Furthermore, the results class can be used to validate identified glycopeptides
+through non-IS-fragmenting MS runs. The corresponding .mzML files can be searched
+for glycopeptides on different levels
+
+    #. isotope envelope on MS1 level
+    #. selection for fragmentation by HCD
+    #. presence of glycopeptide specific fragment ions on MS2 level
+

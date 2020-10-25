@@ -1,0 +1,65 @@
+.. SugarPy documentation master file, created by
+   sphinx-quickstart on Mon Feb 10 10:37:18 2020.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Welcome to SugarPy's documentation!
+===================================
+The latest Documentation was generated on: |today|
+
+.. toctree::
+   :maxdepth: 2
+
+   intro
+
+
+Module structure
+----------------
+.. toctree::
+   :maxdepth: 2
+
+   general_structure
+
+
+SugarPy module contents
+=======================
+
+
+.. toctree::
+   :maxdepth: 1
+
+   sp_run
+   sp_results
+
+
+Parameters
+----------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   parameters
+
+
+
+Examples
+========
+
+Different example script are given to test SugarPy's functionality and can be used as templates for your own script.
+For example scripts on how to use SugarPy withing the Python framework Ursgal, please see https://ursgal.readthedocs.io/en/latest/example_scripts.html
+
+.. toctree::
+   :maxdepth: 2
+
+   example_scripts
+
+Changelog
+=========
+
+Record of released SugarPy versions with all notable changes
+
+.. toctree::
+   :maxdepth: 1
+
+   changelog

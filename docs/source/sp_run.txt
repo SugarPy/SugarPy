@@ -1,0 +1,10 @@
+.. _sprun:
+
+.. default-domain:: py
+
+SugarPy Run
+===========
+
+.. autoclass:: sugarpy.run.Run
+   :members:
+
