@@ -1,0 +1,5 @@
+numpy
+plotly==4.2.0
+ursgal
+pymzml
+pyqms
