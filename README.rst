@@ -98,8 +98,8 @@ Citation
 ********
 
 
-S. Schulze, A. Oltmanns, C. Fufezan, J. Krägenbring, M. Mormann, M. Pohlschröder and M. Hippler. 2020. SugarPy facilitates the universal, discovery-driven analysis of intact glycopeptides. `bioRxiv`_ https://doi.org/10.1101/2020.10.21.349399 
+Schulze, S.; Oltmanns, A.; Fufezan, C.; Krägenbring, J.; Mormann, M.; Pohlschröder, M.; Hippler, M. (2020). SugarPy facilitates the universal, discovery-driven analysis of intact glycopeptides. `Bioinformatics`_ 
 
-.. _bioRxiv:
-    https://www.biorxiv.org/content/10.1101/2020.10.21.349399v1
+.. _Bioinformatics:
+    https://doi.org/10.1093/bioinformatics/btaa1042
 
