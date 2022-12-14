@@ -322,7 +322,7 @@ class Run(object):
         lookup = {}
         mzml_basename = os.path.basename(
             mzml_file
-        ).strip('.mzML')
+        ).replace('.mzML', '')
         lookup[mzml_basename] = {
             'scan_2_rt' : {}
         }
